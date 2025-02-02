@@ -1,0 +1,27 @@
+saki@hamadanoiMac ~ % mkdir git_challenge
+mkdir: git_challenge: File exists
+saki@hamadanoiMac ~ % cd git_challenge
+saki@hamadanoiMac git_challenge % git init
+Reinitialized existing Git repository in /Users/saki/git_challenge/.git/
+saki@hamadanoiMac git_challeng % git add hello_world.txt
+saki@hamadanoiMac git_challeng % git commit -m "初めてのコミット: Hello, world!を追加"
+zsh: event not found: を追加
+saki@hamadanoiMac git_challeng % git add hello_world.txt
+saki@hamadanoiMac git_challeng % git commit -m "2度目のコミット: こんにちは、世界！を追加"
+
+[main ebb9e5e] 2度目のコミット: こんにちは、世界！を追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+saki@hamadanoiMac git_challeng % git log
+commit ebb9e5e88632098c2a9dece71171ee578e156735 (HEAD -> main)
+Author: saki30 <s6u6s024@gmail.com>
+Date:   Mon Feb 3 01:21:45 2025 +0900
+
+    2度目のコミット: こんにちは、世界！を追加
+
+commit 59095e850f901e3781d23ac3fb38d4a29d0f675e
+Author: saki30 <s6u6s024@gmail.com>
+Date:   Sun Feb 2 22:49:13 2025 +0900
+
+    こんにちは、世界！
+saki@hamadanoiMac git_challeng % git remote add origin https://github.com/saki30/git_challenge.git
+saki@hamadanoiMac git_challeng % git push origin master
