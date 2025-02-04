@@ -1,8 +1,7 @@
 saki@hamadanoiMac ~ % mkdir git_challenge
 mkdir: git_challenge: File exists
 saki@hamadanoiMac ~ % cd git_challenge
-saki@hamadanoiMac git_challenge % git init
-Reinitialized existing Git repository in /Users/saki/git_challenge/.git/
+
 saki@hamadanoiMac git_challeng % git add hello_world.txt
 saki@hamadanoiMac git_challeng % git commit -m "初めてのコミット: Hello, world!を追加"
 zsh: event not found: を追加
