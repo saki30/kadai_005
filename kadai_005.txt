@@ -3,8 +3,10 @@ mkdir: git_challenge: File exists
 saki@hamadanoiMac ~ % cd git_challenge
 
 saki@hamadanoiMac git_challeng % git add hello_world.txt
-saki@hamadanoiMac git_challeng % git commit -m "初めてのコミット: Hello, world!を追加"
-zsh: event not found: を追加
+saki@hamadanoiMac git_challenge % git commit -m "初めてのコミット: Hello, worldを追加" 
+[main (root-commit) 2558e6d] 初めてのコミット: Hello, worldを追加
+ 1 file changed, 2 insertions(+)
+ create mode 100644 git_challenge/hello_world.txt
 saki@hamadanoiMac git_challeng % git add hello_world.txt
 saki@hamadanoiMac git_challeng % git commit -m "2度目のコミット: こんにちは、世界！を追加"
 
